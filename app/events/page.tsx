@@ -6,7 +6,7 @@ import { EventType } from '@/types'
 import type { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Eduor Events",
+    title: "Admissions",
     description: "Developed by Azizur Rahman",
   }
 const page = async () => {

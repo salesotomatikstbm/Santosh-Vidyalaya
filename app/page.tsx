@@ -18,7 +18,7 @@ import { ActivityType, BlogType, CategoryType, EventType, FaqType, TestimonialTy
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: "Eduor Home Page 1",
+  title: "Home",
   description: "Developed by Azizur Rahman",
 }
 export default async function Home() {
@@ -31,7 +31,7 @@ export default async function Home() {
   const activityData: ActivityType[] = await getActivity();
   return (
     <>
-      <NavbarSection style="" logo="images/logo.png" />
+      <NavbarSection style="" logo="images/santhose vidyalaya.png" />
       <BannerSection />
       {categoryData && <CategorySection categoryData={categoryData}/>}
       <AboutSection />

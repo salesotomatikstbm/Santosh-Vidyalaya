@@ -12,7 +12,7 @@ import { ActivityType, BlogType, CourseType, FaqType, ServiceType } from '@/type
 import { getActivity, getBlog, getCourse, getFaq, getService } from '@/sanity/sanity.query'
  
 export const metadata: Metadata = {
-  title: "Eduor About",
+  title: "About",
   description: "Developed by Azizur Rahman",
 }
 const page = async() => {

@@ -7,7 +7,7 @@ import { CourseType } from '@/types'
 import { getCourse } from '@/sanity/sanity.query'
  
 export const metadata: Metadata = {
-  title: "Eduor Courses",
+  title: "Acaemics",
   description: "Developed by Azizur Rahman",
 }
 const page = async() => {
