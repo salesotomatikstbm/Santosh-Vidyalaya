@@ -19,8 +19,10 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
     id="navbarNav"
   >
     <ul className={`navbar-nav ${position}`}>
+
       <li className="nav-item">
-        <a className="nav-link">
+      <Navlink href="/">Home</Navlink>
+        {/* <a className="nav-link">
           Home <i className="fa fa-angle-down"></i>
         </a>
         <ul className="tf__droap_menu">
@@ -33,14 +35,17 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           <li>
             <SubNavlink href="/home-3">home 3</SubNavlink>
           </li>
-        </ul>
+        </ul> */}
       </li>
+
       <li className="nav-item">
-        <Navlink href="/about">about us</Navlink>
+        <Navlink href="/about">About Us</Navlink>
       </li>
+
       <li className="nav-item">
-        <a className="nav-link">
-          courses <i className="fa fa-angle-down"></i>
+      <Navlink href="/courses"> Academics</Navlink>
+        {/* <a className="nav-link">
+        Academics <i className="fa fa-angle-down"></i>
         </a>
         <ul className="tf__droap_menu">
           <li>
@@ -51,11 +56,13 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               courses details
             </SubNavlink>
           </li>
-        </ul>
+        </ul> */}
       </li>
+
       <li className="nav-item">
-        <a className="nav-link">
-          blogs <i className="fa fa-angle-down"></i>
+      <Navlink href="/events"> Admissions</Navlink>
+        {/* <a className="nav-link">
+        Admissions <i className="fa fa-angle-down"></i>
         </a>
         <ul className="tf__droap_menu">
           <li>
@@ -66,11 +73,14 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               blog details
             </SubNavlink>
           </li>
-        </ul>
+        </ul> */}
       </li>
+
+
       <li className="nav-item">
-        <a className="nav-link">
-          pages <i className="fa fa-angle-down"></i>
+      <Navlink href="/team"> Events</Navlink>
+        {/* <a className="nav-link">
+        Events <i className="fa fa-angle-down"></i>
         </a>
         <ul className="tf__droap_menu">
           <li>
@@ -102,21 +112,26 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           <li>
             <SubNavlink href="/privacy-policy">privacy policy</SubNavlink>
           </li>
-        </ul>
+        </ul> */}
       </li>
+
+
+
       <li className="nav-item">
-        <Navlink href="/contact">contact</Navlink>
+        <Navlink href="/team">Gallery</Navlink>
       </li>
+
+
       {btnPosition ? null : (
         <li className="nav-item">
-          <a className="nav-link common_btn" href="#">
-            LEARN MORE
+          <a className="nav-link common_btn" href="/contact">
+            Contact Us
           </a>
         </li>
       )}
     </ul>
     {btnPosition ? (
-      <a className="common_btn_2 ms-auto" href="#">
+      <a className="common_btn_2 ms-auto" href="/contact">
         learn more
       </a>
     ) : null}
