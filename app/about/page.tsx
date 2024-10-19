@@ -26,11 +26,13 @@ const page = async() => {
         <BreadcrumbSection header="About us" title="About us"/>
         <section className="tf__about_us_page mt_195 xs_mt_100">
             <AboutSection3 style=''/>
-            {serviceData && <PopularServiceSection2 services={serviceData}/>}
-            {courseData && <CourseSection style="tf__popular_courses" courseData={courseData}/>}
-            {faqData && <FaqSection img="images/faq_img_2.jpg" faqData={faqData}/>}
             {activityData && <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100" activityData={activityData}/>}
-            {blogData && <BlogSection blogData={blogData}/>}
+            {serviceData && <PopularServiceSection2 services={serviceData}/>}
+            {/* {courseData && <CourseSection style="tf__popular_courses" courseData={courseData}/>} */}
+         
+            
+            {faqData && <FaqSection img="images/faq_img_2.jpg" faqData={faqData}/>}
+            {/* {blogData && <BlogSection blogData={blogData}/>} */}
         </section>
     </Layout>
   )

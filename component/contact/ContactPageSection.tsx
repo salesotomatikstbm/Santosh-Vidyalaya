@@ -28,8 +28,8 @@ const ContactPageSection = () => {
                 </div>
                 <div className="text">
                   <h3>Call</h3>
-                  <a href="callto:+880254615566">+880254615566</a>
-                  <a href="callto:+826542556455">+826542556455</a>
+                  <a href="callto:(044) 22399491">(044) 22399491</a>
+                  <a href="callto:(044) 22399491">(044) 22399491</a>
                 </div>
               </div>
               <div className="tf__contact_single">
@@ -38,8 +38,8 @@ const ContactPageSection = () => {
                 </div>
                 <div className="text">
                   <h3>mail</h3>
-                  <a href="mailto:neta@eobi.com">neta@eobi.com</a>
-                  <a href="mailto:coraty@bara.com">coraty@bara.com</a>
+                  <a href="mailto:santhoshvidyalay.in">santhoshvidyalay.in</a>
+                  <a href="mailto:santhoshvidyalaya@gmail.com">santhoshadmin@gmail.com</a>
                 </div>
               </div>
               <div className="tf__contact_single">
@@ -48,7 +48,7 @@ const ContactPageSection = () => {
                 </div>
                 <div className="text">
                   <h3>address</h3>
-                  <p>52, 25 rangpur,0123 Ratrba baraj,20</p>
+                  <p>#9, Gangai Street, Balaji Nagar, Irumbuliyur, Tambaram East,  Chennai, Tamil Nadu 600059, India</p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const ContactPageSection = () => {
           <div className="col-xl-12 wow fadeInUp">
             <div className="tf__contact_map mt_100">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29199.78758207035!2d90.43684581929195!3d23.819543211524437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c62fce7d991f%3A0xacfaf1ac8e944c05!2sBasundhara%20Residential%20Area%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1667021568123!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62220.42259620924!2d80.07175578787164!3d12.922087130880861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f14844aad0f%3A0xe16d3a66c4ce38d4!2sTambaram%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1729303934288!5m2!1sen!2sin"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>

@@ -69,7 +69,7 @@ const AboutSection = () => {
           <div className="col-xl-6 col-md-9 col-lg-6 wow fadeInLeft">
             <div className="tf__about_text">
               <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>OUR About Us</h5>
+                <h5>About the School</h5>
                 <h2>Discover Our Story: Nurturing Growth, Fostering Learning.</h2>
               </div>
               <p>

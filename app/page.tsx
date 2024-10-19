@@ -33,15 +33,16 @@ export default async function Home() {
     <>
       <NavbarSection style="" logo="images/santhose vidyalaya.png" />
       <BannerSection />
-      {categoryData && <CategorySection categoryData={categoryData}/>}
       <AboutSection />
-      {eventData && <EventSection section="tf__event mt_95" startIndex={0} endIndex={4} eventData={eventData}/>}
-      {faqData && <FaqSection img="images/faq_img.jpg" faqData={faqData}/>}
-      {workData && <WorkSection workData={workData}/>}
-      {testimonialData && <TestimonialSection testimonialData={testimonialData}/>}
+      {categoryData && <CategorySection categoryData={categoryData}/>}
       {activityData &&<ActivitySection activityData={activityData}/>}
-      <VideoSection />
-      {blogData && <BlogSection blogData={blogData}/>}
+      {/* {eventData && <EventSection section="tf__event mt_95" startIndex={0} endIndex={4} eventData={eventData}/>} */}
+      
+      {/* {workData && <WorkSection workData={workData}/>} */}
+      {testimonialData && <TestimonialSection testimonialData={testimonialData}/>}
+      {faqData && <FaqSection img="images/faq_img.jpg" faqData={faqData}/>}
+      {/* <VideoSection />
+      {blogData && <BlogSection blogData={blogData}/>} */}
       <FooterSection />
       <VideoModal />
       <ScrollToTopButton style="" />

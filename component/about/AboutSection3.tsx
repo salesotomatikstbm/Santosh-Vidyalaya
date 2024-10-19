@@ -71,7 +71,7 @@ const AboutSection3 = ({ style } : Props) => {
           <div className="col-xl-6 col-lg-6 wow fadeInRight">
             <div className="tf__about_2_text">
               <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>OUR About Us</h5>
+                <h5>About the School</h5>
                 <h2>Complete About Students University Education.</h2>
               </div>
               <p>
