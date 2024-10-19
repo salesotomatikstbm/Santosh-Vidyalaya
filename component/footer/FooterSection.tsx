@@ -11,7 +11,7 @@ const FooterSection = () => {
               <div className="tf__footer_logo_area">
                 <Link className="footer_logo" href="/">
                   <img
-                    src="/images/footer_logo.png"
+                    src="images/santhose vidyalaya.png"
                     alt="Eduor"
                     className="img-fluid w-100"
                   />
@@ -54,16 +54,16 @@ const FooterSection = () => {
                 <h3>Quick Links</h3>
                 <ul>
                   <li>
-                    <Link href="/courses">Best Services</Link>
+                    <Link href="/courses">Academics</Link>
                   </li>
                   <li>
                     <Link href="/events">Events</Link>
                   </li>
                   <li>
-                    <Link href="/about">About Our Company</Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Business Contact</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
                   <li>
                     <Link href="/contact">Make An Appointment</Link>
@@ -74,10 +74,10 @@ const FooterSection = () => {
             <div className="col-xl-3 col-sm-10 col-md-7 col-lg-col-lg-6">
               <div className="tf__footer_content xs_mt_30">
                 <h3>Our Contacts</h3>
-                <p>Adress: 27 Division St, Berakuti, NY 121102, USA</p>
+                <p>#9, Gangai Street, Balaji Nagar, Irumbuliyur, Tambaram East, Chennai, Tamil Nadu 600059, India</p>
                 <p>
-                  <span> Phone: <Link href='tel: +8 1440 456 782'>+8 1440 456 782</Link></span>
-                  <span>Fax: <Link href='tel: +8 846512 456 788'>+8 846512 456 788</Link></span>
+                  <span> Phone: <Link href='tel: (044) 22399491'>(044) 22399491</Link></span>
+                  <span>Fax: <Link href='tel: (044) 22399491'>(044) 22399491</Link></span>
                 </p>
                 <p>
                   <span>Email: <Link href='mailTo: example@mail.com'>example@mail.com</Link> </span>
@@ -102,7 +102,7 @@ const FooterSection = () => {
           <div className="row">
             <div className="col-12">
               <div className="tf__copyright">
-                <p>Copyright ©Eduor all rights reserved.</p>
+                <p>Copyright ©santhoshvidyalaya all rights reserved.</p>
                 <ul className="d-flex flex-wrap">
                   <li>
                     <Link href="/privacy-policy">Privacy policy</Link>

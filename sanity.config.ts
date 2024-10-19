@@ -4,9 +4,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'eduor',
+  title: 'Shanthosh Vidyalaya',
 
-  projectId: '1a142z34',
+  projectId:'i9yt9c1w',
   dataset: 'production',
   basePath: "/admin",
   plugins: [deskTool()],
