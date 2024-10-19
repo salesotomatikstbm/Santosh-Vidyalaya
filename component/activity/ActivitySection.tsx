@@ -11,7 +11,7 @@ const ActivitySection = ({activityData}: Props) => {
           <div className="col-xl-6 col-lg-6 wow fadeInLeft">
             <div className="tf__heading_area tf__heading_area_left mb_20">
               <h5>Success Stories</h5>
-              <h2>Engage, Explore, Excel: Our Vibrant Activities</h2>
+              <h2>Inspiring Journeys of Our Participants</h2>
             </div>
             <div className="tf__activities_text">
               <p>

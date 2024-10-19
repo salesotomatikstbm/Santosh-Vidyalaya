@@ -17,8 +17,7 @@ const FooterSection = () => {
                   />
                 </Link>
                 <p>
-                  Arun enim ipsam voluptate quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia magni this dolores eos qui ratione .
+                At Shanthosh Vidyalaya, education goes beyond the classroom, evolving into a journey filled with discovery and growth. 
                 </p>
                 <ul className="d-flex flex-wrap">
                   <li>

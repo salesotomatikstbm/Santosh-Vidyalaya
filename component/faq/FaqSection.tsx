@@ -28,8 +28,7 @@ const FaqSection = ({ img,faqData }: Props) => {
                 <h2>Got Questions? Here Are Your Answers - FAQ</h2>
               </div>
               <p className="description">
-                Business tailored it design, management & support services
-                business agency elit, sed do eiusmod tempor.{" "}
+              Your queries answered! Find information about our curriculum, activities, and student support services.{" "}
               </p>
               <div className="tf__faq_accordion">
                 <div className="accordion" id="accordionExample">

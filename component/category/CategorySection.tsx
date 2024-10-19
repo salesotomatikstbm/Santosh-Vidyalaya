@@ -11,7 +11,7 @@ const CategorySection = ({categoryData} : Props) => {
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
             <div className="tf__heading_area mb_15">
               <h5>Key Highlights</h5>
-              <h2>Creative categories for students.</h2>
+              <h2>Exciting Features You Can’t Miss.</h2>
             </div>
           </div>
         </div>
