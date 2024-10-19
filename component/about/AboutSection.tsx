@@ -52,9 +52,7 @@ const AboutSection = () => {
                 <div className="tf__about_top_text_center">
                   <h4>Study Off Flexibly</h4>
                   <p>
-                    We can provide you with a reliable handyan in Please input
-                    an email address down below school. Please input anand
-                    school. included the today.
+                  Learn at your own pace with flexible study options, designed to fit your unique schedule. Balance education with life’s demands while achieving academic success.
                   </p>
                 </div>
                 <a href="#" className="common_btn">
@@ -67,26 +65,26 @@ const AboutSection = () => {
 
         <div className="row">
           <div className="col-xl-6 col-md-9 col-lg-6 wow fadeInLeft">
-            <div className="tf__about_text">
-              <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>About the School</h5>
-                <h2>Discover Our Story: Nurturing Growth, Fostering Learning.</h2>
-              </div>
-              <p>
-                Business tailored it design, management & support services
-                business agency elit, sed do eiusmod tempor.{" "}
-              </p>
-              <ul>
-                <li>Business school's Institut constructivism.</li>
-                <li>We give management school best.</li>
-                <li>Media in this school solution.</li>
-                <li>Business school's Institut constructivism.</li>
-                <li>We give management school best.</li>
-              </ul>
-              <Link href="/about" className="common_btn">
-                about more
-              </Link>
-            </div>
+          <div className="tf__about_text">
+  <div className="tf__heading_area tf__heading_area_left mb_25">
+    <h5>About the School</h5>
+    <h2>Discover Our Journey: Empowering Minds, Shaping Futures.</h2>
+  </div>
+  <p>
+    Shanthosh Vidyalaya is dedicated to creating a nurturing environment where every child’s potential is unlocked. We focus on holistic development, combining academic excellence with character building, fostering both intellectual and emotional growth.
+  </p>
+  <ul>
+    <li>We provide a well-rounded education with a strong academic foundation.</li>
+    <li>Experienced and passionate faculty dedicated to student success.</li>
+    <li>Modern facilities designed to support innovative learning.</li>
+    <li>Focus on co-curricular activities for overall development.</li>
+    <li>A caring and inclusive environment that encourages personal growth.</li>
+  </ul>
+  <Link href="/about" className="common_btn">
+    Learn More
+  </Link>
+</div>
+
           </div>
           <div className="col-xl-6 col-sm-9 col-md-8 col-lg-6 wow fadeInRight">
             <div className="tf__about_img">
@@ -107,7 +105,7 @@ const AboutSection = () => {
                   />
                 )}
                 </h3>
-                <p>Complete Projects</p>
+                <p>Students</p>
               </div>
             </div>
           </div>

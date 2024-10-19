@@ -1,7 +1,7 @@
 import { CategoryType } from "@/types";
 import React from "react";
 interface Props {
-  categoryData: CategoryType[];
+  categoryData: CategoryType[]; 
 }
 const CategorySection = ({categoryData} : Props) => {
   return (

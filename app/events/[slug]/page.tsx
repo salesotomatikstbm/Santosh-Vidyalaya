@@ -8,15 +8,15 @@ import { EventType } from '@/types'
 import { getEvent } from '@/sanity/sanity.query'
 
 export const metadata: Metadata = {
-    title: "Eduor Event Details",
-    description: "Developed by Azizur Rahman",
+    title: "Event",
+    description: "Developed by Arun",
   }
 const page = async({ params } : { params : { slug: string } }) => {
     const eventData: EventType[] = await getEvent()
     const eventDesc = eventData.find((item) => item.slug === params.slug)
   return (
     <Layout>
-        <BreadcrumbSection header='Event Details' title='Event Details'/>
+        <BreadcrumbSection header='Event' title='Event'/>
         {eventDesc ? (
             <EventDetailSection eventDesc={eventDesc}/>
         ):(

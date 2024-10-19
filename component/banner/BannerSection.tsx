@@ -20,8 +20,7 @@ const BannerSection = () => {
               Where Learning <span>Becomes</span> Adventure!
               </h1>
               <p>
-              Shanthosh vidyalaya is more than just a platform; it's a nurturing space where education transforms into an exciting adventure. With a passion for igniting curiosity and inspiring young minds.
-              </p>
+              At Shanthosh Vidyalaya, education goes beyond the classroom, evolving into a journey filled with discovery and growth. We are dedicated to fostering a love for learning, empowering students to explore their potential, and preparing them for a bright future. With a strong focus on creativity, critical thinking, and holistic development, we strive to inspire young minds and cultivate a lifelong passion for knowledge.       </p>
               <ul className="d-flex flex-wrap align-items-center">
                 <li>
                   <Link className="common_btn" href="/about">

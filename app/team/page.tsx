@@ -7,14 +7,14 @@ import { TeamType } from '@/types'
 import { getTeam } from '@/sanity/sanity.query'
 
 export const metadata: Metadata = {
-    title: "Events",
+    title: "Gallery",
     description: "Developed by Azizur Rahman",
   }
 const page = async() => {
   const teamData: TeamType[] = await getTeam();
   return (
     <Layout>
-        <BreadcrumbSection header='Team' title='Team'/>
+        <BreadcrumbSection header='Gallery' title='Gallery'/>
         <AllTeamMemberSection teamData={teamData}/>
     </Layout>
   )

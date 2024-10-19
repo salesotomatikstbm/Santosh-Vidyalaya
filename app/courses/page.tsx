@@ -14,7 +14,7 @@ const page = async() => {
   const course: CourseType[] = await getCourse();
   return (
     <Layout>
-        <BreadcrumbSection header='All Course' title='All Course'/>
+        <BreadcrumbSection header='Acaemics' title='Acaemics'/>
         {course && <AllCourseSection courseData={course}/>}
     </Layout>
   )

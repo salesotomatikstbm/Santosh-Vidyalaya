@@ -10,7 +10,7 @@ const VideoModal = () => {
     const handleVideoClose = () => {
         dispatch(toggleVideoClose())
     }
-    const embedUrl = "https://www.youtube.com/embed/0M1C9yEzplI?si=Z3EwaFEt9ugA_2XS";
+    const embedUrl = "https://www.youtube.com/embed/x_T-68Ycdus?si=191pC1H1yVdPJxx6";
   return (
     <Modal show={showVideo} onHide={handleVideoClose} size='lg' centered className="modal-video" id="LKQIY6EGFR9TU">
         <Modal.Header className='vidoe-modal-header' closeButton></Modal.Header>

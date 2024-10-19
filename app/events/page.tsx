@@ -6,14 +6,14 @@ import { EventType } from '@/types'
 import type { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Admissions",
+    title: "Facilities",
     description: "Developed by Azizur Rahman",
   }
 const page = async () => {
   const event: EventType[] = await getEvent();
   return (
     <Layout>
-        <BreadcrumbSection header='Events' title='Events'/>
+        <BreadcrumbSection header='Facilities' title='Facilities'/>
         {event && <AllEventSection eventData={event}/>}
     </Layout>
   )
